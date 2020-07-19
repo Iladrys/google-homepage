@@ -1,0 +1,108 @@
+body {
+    font-family: arial, sans-serif;
+}
+li {
+    display: inline;
+}
+footer {
+    position: absolute;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.navbar a, form a, footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    margin: 0px;
+}
+footer a, footer p{
+    padding: 10px;
+    color: rgba(44, 44, 44, 0.87);
+    margin: 0px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#footer-bottom {
+    line-height: 40px;
+}
+#footer-right {
+    float: right;
+    margin-right: 30px;
+}
+#languages {
+    font-size: small;
+    display: absolute;
+    display: flex;
+    justify-content: center;
+}
+#log-in {
+    background-color: #4285f4;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border-color: #4285f4;
+    border-radius: 3px;
+}
+#search {
+    display: inline-flex;
+    line-height: 40px;
+	border-radius: 24px;
+	border: 1px solid rgba(211, 211, 211, 0.87);
+    padding: 0x 10px;
+    margin: 10px;
+}
+#search:hover {
+    box-shadow: 3px 1px 5px .01px rgb(187, 187, 187)
+}
+#search-button, #lucky-button {
+    background: #f2f2f2;
+    outline: none;
+    height: 44px;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+}
+#search-button:hover, #lucky-button:hover {
+    box-shadow: 1px 1px 5px .01px rgb(187, 187, 187);
+    color: rgb(71, 71, 71);
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10%;
+}
+.submit-buttons {
+    line-height: 44px;
+    padding: 10px 16px;
+    text-align: center;
+}
+.navbar li {
+    padding: 3px;
+    font-size: 13px;
+    flex-direction: row-reverse;
+}
+.navbar ul {
+    list-style-type: none;
+     margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    justify-content:right;
+}
+.logo {
+    display: block;
+    text-align: center;
+    padding-top: 128px;
+}
+.search-box {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    border-color: rgba(0,0,0,.87);
+}
